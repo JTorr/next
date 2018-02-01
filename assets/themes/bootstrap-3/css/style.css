@@ -14,13 +14,14 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
-h1, h2, h3, h4 {
-  color: #f22430;
-}
-#footer {
-  background-color: #fdcd60;
-}
 
+body {
+    margin: 0;
+    padding: 0;
+    color: #494e52;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    line-height: 1.5;
+}
 
 
 /* posts index */
@@ -77,3 +78,181 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+ #main {
+    clear: both;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-right: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    -webkit-animation: intro 0.3s both;
+    animation: intro 0.3s both;
+    max-width: 100%;
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+ }
+
+figure.ebook_image {
+  display: inline-block;
+  height: 35%;
+  width: 35%;
+  -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40px;
+    -webkit-margin-end: 40px;
+}
+
+
+
+.page__content {
+  position: relative;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  clear: both;
+  display: block;
+}
+
+.page .page__inner-wrap {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+  }
+
+  .page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share {
+    position: relative;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    clear: both;
+  }
+
+figure.ebook_image > img {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+    border-radius: 4px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 10px 5px 20px 1px;
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+}
+
+div.page_heading {
+  transition: all 0.2s ease-in-out;
+    vertical-align: middle;
+    display: inline-block;
+    color: #00B4B3;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    max-width: 55%;
+  }
+
+  h1 {
+    margin-top: 0;
+    font-size: 1.563em;
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    margin: .67em 0;
+    color: #00B4B3;
+    text-align: center;
+}
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 2em 0 0.5em;
+    line-height: 1.2;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-weight: bold;
+  }
+
+  div.page_heading p, div.page_heading dl {
+    color: #2C4058;
+}
+
+.page__content p {
+    margin: 0 0 1.3em;
+  }
+
+  a {
+    color: #52adc8;
+  }
+
+  a:visited {
+    color: #7dc2d6;
+  }
+  .btn--large {
+    font-size: 1em;
+}
+
+.btn, #goog-wm-sb {
+    display: inline-block;
+    margin-bottom: 0.25em;
+    padding: 0.5em 1em;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .ebookContainer {
+
+  }
+  .ebookContainer:before {
+    display: table;
+    content: " ";
+  }
+
+  @media (min-width: 768px) {
+    div.container {
+      width: 100%;
+    }
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .btn-info {
+    font-size: 16px;
+    background-image: linear-gradient(to bottom,#FF8900 0,#F77500 100%);
+    background-repeat: repeat-x;
+    border-color: #F77500;
+    color: white;
+    background-color: #F77500;
+  }
+
+  .btn-info > a {
+    color: white;
+  }
+
+  .page_heading > a:visited {
+    color: #f4f5f7;
+  }
+
+  .page_heading > a:hover {
+    background-color: #F77500;
+    border-color: #F77500;
+    color: #fff;
+  }
